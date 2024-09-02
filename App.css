@@ -1,0 +1,86 @@
+.painel{
+    background-color: red;
+    border: 1px solid brown;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: wheat;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 3px 3px 15px black;
+}
+
+.frontal{
+    width: 45%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+#pokbolas{
+    width: 35px;
+}
+
+#tela{
+    margin: auto;
+    background-color: gray;
+    border: 15px solid whitesmoke;
+    width: 300px;
+    height: 285px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/421/241/desktop-wallpaper-pokemon-forest-backgrounds-%C2%B7%E2%91%A0-pokemon-background.jpg');
+    background-size: cover;
+    animation: carregar 5s alternate;
+}
+
+body{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a519a75e-fcdf-46ad-9ef8-14f8655efcf1/dfx1k8r-2a8ebdf4-5dae-4864-9c13-4372a7f61cdd.png/v1/fill/w_1150,h_695/ash_s_g_1_pokemon_team_kanto_my_version_by_totaldramaexpanded_dfx1k8r-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzc0IiwicGF0aCI6IlwvZlwvYTUxOWE3NWUtZmNkZi00NmFkLTllZjgtMTRmODY1NWVmY2YxXC9kZngxazhyLTJhOGViZGY0LTVkYWUtNDg2NC05YzEzLTQzNzJhN2Y2MWNkZC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.SkPNRQxb5RIz9xfkCbIVkSB3wYX_mcyHspblOMTN3ls');
+    
+    background-size: cover;
+}
+
+@keyframes carregar {
+0% {height: 0; }
+100% { }
+}
+
+p{
+    background-color: black;
+    width: 250px;
+    margin: auto;
+}
+
+h2{
+    background-color: maroon;
+    width: 250px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+#entrada{
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button{
+    height: 35px;
+    margin: 7px;
+    background-color: black;
+    color: white;
+    border: 3px solid grey;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+button:hover{
+    background-color: green;
+    height: 40px;
+}
+
